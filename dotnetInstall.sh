@@ -20,6 +20,7 @@ if [ $(whoami) == "root" ]; then
     wget https://dl.pstmn.io/download/latest/linux_64 && 
     tar xvf postman-linux-x64.tar.gz
     mv Postman $HOME/programs
+    rm -rf postman-linux-x64.tar.gz
     
     wget https://github.com/VSCodium/vscodium/releases/download/1.88.1.24104/codium_1.88.1.24104_amd64.deb
     sudo dpkg -i codium_1.88.1.24104_amd64.deb
