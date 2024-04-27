@@ -29,9 +29,9 @@ if [ $(whoami) == "root" ]; then
     docker run -e "ACCEPT_EULA=1" -e "MSSQL_USER=SA" -e "MSSQL_SA_PASSWORD=SQLConnect1" -e "MSSQL_PID=Developer" -p 1433:1433 -d --name=sql_connect mcr.microsoft.com/azure-sql-edge
     clear 
 
-    echo "[+] Docker with sqlserver created"
+    echo "[+] Docker with sqlserver created and Running"
     echo "[+] Dotnet8 Installed"
-    echo "[+] Postman is at $HOME/programs/Postman"
+    echo "[+] Vscodium Installed"
     exit 0
 
 else 
